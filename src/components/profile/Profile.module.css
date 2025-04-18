@@ -1,0 +1,58 @@
+.profile {
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 600px;
+  background-color: #fcfcfc;
+  overflow: hidden;
+}
+
+.profile p {
+  font-size: 36px;
+  color: darkgrey;
+}
+
+.profile .profileName {
+  font-size: 44px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;;
+}
+
+.profile .profileImage {
+  width: 200px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.info {
+  display: flex;
+  background-color: darkgray;
+  margin-top: 7px;
+}
+
+.info li {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  border: solid gray;
+  border-width: 2px 2px 0 0;
+  border-collapse: collapse;
+  flex-basis: calc(100% / 3);
+}
+
+.info li:last-child {
+  border-right: 0;
+}
+
+.infoName,
+.infoValue {
+  font-size: 36px;
+  color: #000;
+}
+
+.infoValue {
+  font-weight: 900;
+}
